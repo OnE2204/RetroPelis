@@ -1,0 +1,223 @@
+
+body{
+    background-color: #A0BCC2;
+}
+.barra-navegacion {
+    background-color: #205375;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    color: #fff;
+}
+.div-logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-botones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 28%;
+    color: #fff;
+}
+.div-btn-right {
+    width: 58%;
+    justify-content: end; 
+}
+.div-content-nav {
+    width: 29%;
+    margin-right: 1%;
+    flex-wrap: wrap;
+}
+.nav-boton-left{
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+}
+.nav-boton-right {
+    margin-left: 4.5%;
+    margin-right: 0%;
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-boton-right svg {
+    width: 20px;
+    height: 20px;
+}
+
+/*MAIN/CONTENIDO*/
+div li{
+    list-style-type: none;
+    display: inline;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 1220px;
+}
+div h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 31px;
+    margin-left: 40px;
+}
+h3{
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 45px;
+    margin-right: 65px;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+}
+.metainfo{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 600px;
+    margin-left: 292px;
+    margin-top: -180px;
+}
+.meta{
+    font-family: sans-serif;
+    color: whitesmoke;
+    display: inline-block;
+    float: right;
+    margin-right: 1398px;
+    margin-top: -300px;
+}
+.infopeli{
+    font-size: 17px;
+        list-style-type: none;
+        margin-left: 252px;
+}
+#textpeli{
+    color: whitesmoke;
+}
+#qlty{
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 2px;
+    display: inline-block;
+}
+#imgarticle{
+    width: 250px;
+    height: 350px;
+    margin-left: 20px;
+}
+.Menulanguage{
+    display: block;
+    background-color: rgba(61,79,145,.5);
+    color: white;
+    margin-left: 150px;
+    margin-right: 400px;
+    padding-left: -60px;
+    padding: 1%;
+    height: 35px;
+    width: 1600px;
+    border: solid #8da0bc;
+}
+#latinolanguage{
+    width: 46px;
+    height: 36px;
+    margin-left: 40px;
+    float: left;
+}
+#españollatino{
+    font-size: 19px;
+    margin-left: -75px;
+    margin-bottom: 10px;
+}
+#calidadhd{
+font-size: 12px;
+float: left;
+margin-left: 15px;
+margin-top: 28px;
+}
+#video{
+    width: 1650px;
+    height: 500px;
+    margin-left: 150px;
+}
+div ul {
+    display: flex;
+
+}
+div ul li{
+    padding: 70px;
+    padding-top: 30px;
+    padding-bottom: 130px;
+    margin-left: 50px;
+}
+.top{
+    padding: 10px;
+    background-color: #205375;
+    color: white;
+    margin-left: 110px;
+    margin-right: 50px;
+}
+.configimg{
+    width: 250px;
+    height: 350px;
+}
+.configimg2{
+    width: 250px;
+    height: 350px;
+}
+#imgbarra{
+    width: 230px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+/**FOOTER**/
+#facebook{
+	width: 30px;
+	margin-left: 595px;
+  }
+  #instagram{
+	width: 30px;
+	margin-left: 20px;
+  }
+  #youtube{
+	width: 30px;
+	margin-left: 20px;
+  }
+  footer{
+	background-color: #EFEFEF;
+  }
+  #privacidad{
+	margin-left: 60px;
+  }
+  #ayuda{
+	margin-left: 480px;
+  }
+  #terminos{
+	margin-left: 440px;
+  }
+  #contactanos{
+	margin-left: 60px;
+  }
+  #cookies{
+	margin-left: 460px;
+  }
+  #info{
+	margin-left: 400px;
+  }
+  #codi{
+	margin-left: 600px;
+	background-color: rgb(224, 214, 214);
+	border: 5px double black;
+	padding: 5px;
+  
+  }
+  #retro{
+	margin-left: 620px;
+  }
+  
