@@ -1,0 +1,109 @@
+body {
+    background-color:#A0BCC2;
+}
+
+.nav-header {
+    background-color: #205375;
+}
+
+.nav-link a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-link svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.ico-usuario {
+    margin-right: 10px;
+}
+
+.ico-usuario svg {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    margin-top: 15%;
+}
+
+.registro span {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.registro span svg {
+    color: aliceblue;
+}
+
+.registro-icono {
+    width: 50px;
+    height: 45px;
+}
+
+.registro-icono svg {
+    width: 100%;
+}
+
+.button-acceder {
+    width: 50%;
+}
+
+.checkbox-genero svg {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*BODY*/
+.opcion-vista a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.opcion-vista a:hover {
+    color: rgb(243, 211, 211);
+}
+
+.iframe-opciones {
+    background-color: #205375;
+
+}
+
+.iframe-opciones a {
+    color: rgb(235, 229, 228);
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.iframe-opciones a:hover {
+    color:#A0BCC2;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.descarga-opciones-1 {
+
+    border-right: 1px solid black;
+}
+
+.descarga-opciones-1,
+.descarga-opciones-2 {
+
+    background:#A0BCC2;
+}
+
+.footer svg,
+.footer a {
+    color: #fff;
+}
+.footer svg {
+    margin-top: 15px;
+}
+.footer a {
+   text-decoration: none;
+}

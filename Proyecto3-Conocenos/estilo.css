@@ -1,0 +1,142 @@
+body{
+    background-color: #A0BCC2;
+}
+.barra-navegacion {
+    background-color: #205375;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    color: #fff;
+}
+.div-logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-botones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 28%;
+    color: #fff;
+}
+.div-btn-right {
+    width: 58%;
+    justify-content: end; 
+}
+.div-content-nav {
+    width: 29%;
+    margin-right: 1%;
+    flex-wrap: wrap;
+}
+.nav-boton-left{
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+}
+.nav-boton-right {
+    margin-left: 4.5%;
+    margin-right: 0%;
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-boton-right svg {
+    width: 20px;
+    height: 20px;
+}
+div li{
+    list-style-type: none;
+    display: inline;
+}
+
+header{
+    background-color: #205375;
+    padding: 8px;
+}
+#titulo1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenido{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 5px double black;
+    margin-left: 420px;
+    margin-right: -420px;
+}
+#r{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+h2{
+    margin-left: 80px;
+}
+h3{
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+#SI{
+    margin-left: 10px;
+}
+#NO{
+    margin-left: 10px;
+}
+#facebook{
+    width: 30px;
+    margin-left: 595px;
+}
+#instagram{
+    width: 30px;
+    margin-left: 20px;
+}
+#youtube{
+    width: 30px;
+    margin-left: 20px;
+}
+footer{
+    background-color: #EFEFEF;
+}
+#privacidad{
+    margin-left: 60px;
+}
+#ayuda{
+    margin-left: 480px;
+}
+#terminos{
+    margin-left: 440px;
+}
+#contactanos{
+    margin-left: 60px;
+}
+#cookies{
+    margin-left: 460px;
+}
+#info{
+    margin-left: 400px;
+}
+#codi{
+    margin-left: 600px;
+    background-color: rgb(224, 214, 214);
+    border: 5px double black;
+    padding: 5px;
+
+}
+#retro{
+    margin-left: 620px;
+}
+#laptop{
+    width: 350px;
+    margin-left: 560px;
+    border-radius: 5px;
+
+}

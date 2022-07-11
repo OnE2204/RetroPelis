@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+	margin-top: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#A0BCC2;
+}
+.barra-navegacion {
+    background-color:#205375;
+	
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    color: #fff;
+}
+.div-logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-botones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 28%;
+    color: #fff;
+}
+.div-btn-right {
+    width: 58%;
+    justify-content: end; 
+}
+.div-content-nav {
+    width: 29%;
+    margin-right: 1%;
+    flex-wrap: wrap;
+}
+.nav-boton-left{
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+}
+.nav-boton-right {
+    margin-left: 4.5%;
+    margin-right: 0%;
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-boton-right svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+
+
+#Destacados{
+    margin-left: 50px;
+    font-size: 20px;
+	color: black;
+}
+#Recienañadidos{
+    margin-left: 270px;
+    font-size: 20px;
+	color: black;
+}
+#AZ{
+    margin-left: 270px;
+    font-size: 20px;
+	color: black;
+}
+#Originales{
+    margin-left: 270px;
+    font-size: 20px;
+	color: black;
+}
+div li{
+    list-style-type: none;
+    display: inline;
+}
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+	color: black;
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: #fff;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: #205375;
+}
+
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+
+
+.peliculas-recomendadas .contenedor-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+	background: rgba(0,0,0, .9);
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+	left: 0;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.peliculas-recomendadas .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+	width: 100%;
+	vertical-align: top;
+}
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 14px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel {
+		overflow: visible;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel .carousel {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.peliculas-recomendadas .indicadores,
+	.peliculas-recomendadas .flecha-izquierda,
+	.peliculas-recomendadas .flecha-derecha {
+		display: none;
+	}
+}
+
+#facebook{
+	width: 30px;
+	margin-left: 595px;
+  }
+  #instagram{
+	width: 30px;
+	margin-left: 20px;
+  }
+  #youtube{
+	width: 30px;
+	margin-left: 20px;
+  }
+  footer{
+	background-color: #EFEFEF;
+  }
+  #privacidad{
+	margin-left: 60px;
+  }
+  #ayuda{
+	margin-left: 480px;
+  }
+  #terminos{
+	margin-left: 440px;
+  }
+  #contactanos{
+	margin-left: 60px;
+  }
+  #cookies{
+	margin-left: 460px;
+  }
+  #info{
+	margin-left: 400px;
+  }
+  #codi{
+	margin-left: 600px;
+	background-color: rgb(224, 214, 214);
+	border: 5px double black;
+	padding: 5px;
+  
+  }
+  #retro{
+	margin-left: 620px;
+  }
+  
+  h1{
+	padding-left: 50px;
+  }
